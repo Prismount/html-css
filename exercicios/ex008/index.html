@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatacao de textos</title>
+    <style>
+        mark {
+                background-color: rgb(121, 96, 145);
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatacoes</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag B (nao semantica).</p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semantica) </p>
+    <h2>Italico / Enfase</h2>
+    <p>Nesta frase, temos <I>um termo em Italico</I> usando a tag I (Nao semantica).</p>
+    <p>Nesta frase, temos <em>um termo em Enfase</em> usando a tag EM (semantica).</p>
+    <h2>Enfase descomunal</h2>
+    <p>Nesta frase, temos <mark>um texto marcado </mark>usando a tag MARK (semantica).</p>
+    <p>e no outro paragrafo, temos <mark>outro texto marcado</mark>no final.</p>
+    <h2>Deixar o texto menor</h2>
+    <p>Nesta frase, temos <small>um termo que deixa o texto menor</small> usando a tag SMALL (semantica).</p>
+    <h2>Texto Deletado</h2>
+    <P>Nesta frase, temos <strike>um termo que deixa o texto deletado</strike> usando a tag STRIKE(nao semantica).</P>
+    <p>Nesta frase, temos <del>um termo que deixa o texto deletado</del> usando a tag DEL (semantica).</p>
+    <h2>Texto inserido</h2>
+    <p>Nesta frase, temos <u>um termo que deixa o texto inserido(deve ser lido)</u> usando a tag U (nao semantica).</p>
+    <p>Nesta frase, temos <ins>um termo que deixa o texto inserido(deve ser lido)</ins> usando a tag INS (semantica).</p>
+    <h2>Textos sobrescritos e subscritos</h2>
+    <p>Nesta frase, temos um termo sobrescritos (x<sup>2</sup>) e subscritos (h<sub>2</sub>o)</p>
+    <h2>Exemplo de codigo em Python</h2>
+    <pre>
+        <code>
+            num= int(input('Digite um numero'))
+            if num % 2 == 0:
+                print(f'o numero {num}e par')
+            else:
+                print(f'o numero {num} e impar')
+            print('FIM DO PROGRAMA')
+        </code>
+    </pre>
+    <h2>Citacoes</h2>
+    <blockquote cite="https://www.martinsfontespaulista.com.br/php-a-biblia-53304.aspx/p">O PHP e uma linguagem para a criacao de scripts para a Web do lado servidor embutidos em HTML, cujo codigo-font e aberto, e que e compativel com os mais importantes servidores Web (especialmente Apache)</blockquote>
+    <H2>Abreviacoes</H2>
+    <p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Nesta frase, temos um termo invertido da direita para esquerda usando a tag BDO e RTL</bdo></p>
+   <p><bdo dir="ltr">Nesta frase, temos um termo invertido da esquerda para a direita usando a tag BDO E LTR</bdo></p>
+   
+  
+</body>
+</html>

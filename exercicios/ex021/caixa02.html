@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+</head>
+<style>
+   body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+   }
+
+   header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   }
+
+   nav {
+    background-color: rgb(102, 102, 102);
+    padding: 3px;
+    box-shadow: 1px 1 px 1px black;
+   }
+   nav > a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+   }
+
+   main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+   }
+
+   footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+   }
+
+   footer > p {
+    margin: 0px;
+   }
+
+   div#bola {
+     height: 100px;
+     width: 100px;
+     background-color: white;
+     margin: 10px;
+     border-radius: 50%;
+   }
+</style>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+        <article>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dolorum nihil alias nesciunt accusantium cumque eos? Fugit quae voluptas est accusamus eveniet eos, incidunt sequi ipsam quod, dolorum ut aliquam?</p>
+            <aside>artigo escrito por jose da silva</aside>
+        </article> 
+        
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, harum error omnis quaerat voluptas ipsum aliquid dolore doloribus numquam facilis atque, aperiam sed. Molestiae asperiores dolorum et animi deleniti veritatis.</p>
+
+        </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>desenvolvido pelo cursoemvideo</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

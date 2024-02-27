@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes externas</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'Heartless';
+        src: url('fonts/Heartless.ttf') format(truetype);
+        font-weight: normal;
+        font-style: normal;
+
+        /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat(Apple Advanced Typography)
+            - svg
+        
+        */
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1 {
+        font-family: 'Heartless', Times, serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+</style>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium placeat unde minima numquam dolore nam at sit pariatur quisquam quo, autem aliquam nobis tenetur vitae ipsam obcaecati necessitatibus non? Fugit!</p>
+    
+</body>
+</html>
