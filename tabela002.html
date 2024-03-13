@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -30,6 +31,17 @@
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
+
         td.num {
             text-align: right;
         }
@@ -47,7 +59,7 @@
         </thead>
         <tbody>
             <tr>
-                <td>Sao Paulo</td>
+                <td>São Paulo</td>
                 <td class="num">44 411 238</td>
             </tr>
             <tr>
